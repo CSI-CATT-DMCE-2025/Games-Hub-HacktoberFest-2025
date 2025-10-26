@@ -13,6 +13,12 @@ export default function Home() {
         <GameCard title="Tic Tac Toe" desc="Classic 3x3 game" to="/tictactoe" />
         <GameCard title="Memory Match" desc="Flip and match pairs" to="/memory" />
         <GameCard title="Snake" desc="Classic snake game" to="/snake" />
+        
+        <GameCard 
+          title="Guess The Number"
+          desc="Can you guess the number between 1 and 10 in the fewest attempts?"
+          to="/guess-number" 
+        /> 
       </section>
     </div>
   )

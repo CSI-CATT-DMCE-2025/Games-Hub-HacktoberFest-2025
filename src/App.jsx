@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import TicTacToePage from './pages/TicTacToePage'
 import MemoryPage from './pages/MemoryPage'
 import SnakePage from './pages/SnakePage'
+import GuessNumberPage from './pages/GuessNumberPage.jsx' 
 
 export default function App() {
   return (
@@ -16,6 +17,9 @@ export default function App() {
           <Route path="/tictactoe" element={<TicTacToePage />} />
           <Route path="/memory" element={<MemoryPage />} />
           <Route path="/snake" element={<SnakePage />} />
+
+          <Route path="/guess-number" element={<GuessNumberPage />} /> 
+
         </Routes>
       </main>
     </div>
